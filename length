@@ -1,0 +1,8 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int lastspace=s.lastIndexOf(" ");
+        String lastword=s.substring(lastspace+1);
+        return lastword.length();
+        
+    }
+}
